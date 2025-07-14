@@ -1,0 +1,53 @@
+=> Node.js
+
+https://nodejs.org/en
+
+Front-end (browser) js
+Back-end (server) js node js
+
+Note : Node.js is a runtime environment that lets you run js code on the server, not just in the browser. Normally, JS runs in the browser (such as firebox, chrome), but node.js allows JS to run on your computer or server just like python, php or java
+
+    Comes with npm(Node Package Manager), software library ecosystem
+
+=> Install node.js on Windows
+
+=> Install node.js on Linux
+
+---------------------------------------------------------------------------------------
+
+=> Check Version
+
+nvm (Node Version Manager)
+
+nvm -v
+node --version  or node -v
+npm --version or npm -v
+
+
+---------------------------------------------------------------------------------------
+
+=> HTTP Status codes
+
+Code                        Meaning
+200                         Ok - The request was successful.
+301                         Moved Permanently - Source has been permanently moved to a new URL
+302                         Found - Resource temporarily moved (common for redirects)
+400                         Bad Request - The server could not understand the request due to invalid syntax.
+401                         Unauthorized - Authentication required or has failed.
+403                         Forbidden - Server understood the request but refused to authorize it 
+404                         Not Found - The server con't find the requested resource.
+500                         Internal server error 
+502                         Bad Gateway - Server receieved and invalid response from an upstream server
+503                         Service Unavailable
+504                         Gateway Timeout - Server don't receieve the timely resource from an upstream server.
+
+100 Range = informational response
+200 Range = success codes
+300 Range = code for redirects
+400 Range = user or client error codes
+500 Range = server error codes
+
+---------------------------------------------------------------------------------------
+
+
+
