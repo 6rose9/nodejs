@@ -12,3 +12,4 @@ console.log(nickname);
 
 //=> process
 console.log("Node Version : ", process.version)
+console.log("OS Platform", process.platform)
