@@ -4,7 +4,7 @@ console.log("Dir Name = " , __dirname);
 
 console.log("File Name =", __filename);
 
-const fullname = "Aung Ko Ko";
+const fullname = "Aung Ko Ko"; // module level variable
 console.log(fullname);
 
 globalThis.nickname = "Aung Aung";
