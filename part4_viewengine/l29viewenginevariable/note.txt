@@ -1,0 +1,8 @@
+Veiw Engine
+------------
+
+npm i ejs
+
+mkdir views
+
+<%= %> // output value
