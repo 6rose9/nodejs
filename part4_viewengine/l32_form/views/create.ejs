@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <% const greeting = "Welcome to EJS Lesson" %>
+
+    <nav>
+      <div>
+        <a href="/">Home Page</a>
+        <p><%= greeting %></p>
+      </div>
+      <ul>
+        <li><a href="/">Home Page</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/posts/create">Create Post</a></li>
+      </ul>
+    </nav>
+    <div>
+        <h1>Create Post</h1>
+        <form action="/posts" method="POST">
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required />
+            </div>
+            <div>
+                <label for="subtitle">Subtitle:</label>
+                <input type="text" id="subtitle" name="subtitle" required />
+            </div>
+            <div>
+                <label for="body">Body:</label>
+                <textarea id="body" name="body" required></textarea>
+            </div>
+            <button type="submit">Create Post</button>
+        </form>
+    </div>
+  </body>
+</html>
