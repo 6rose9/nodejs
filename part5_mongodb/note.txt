@@ -1,0 +1,33 @@
+MongoDB is a NoSQL database that stores data in JSON-like documents instead of tables.
+Installation => npm i mongodb
+(use for native)
+----------------------------------------------------------------------------------------
+
+Mongoose is an Object Data Modeling (ODM) tool/library that lets you interact with MongoDB 
+using structured models and schemas instead of raw queries.
+
+Installation => npm i mongoose
+
+With Mongoose, you can:
+
+- Define schemas
+
+- Create models
+
+- Validate data
+
+- Use middleware (hooks)
+
+- Use relationships between collections
+
+
+***** Mongoose is built on top of the MongoDB Node.js Driver. 
+        It already includes the mongodb driver as a dependency. *****
+
+Express
+   ↓
+Mongoose
+   ↓
+MongoDB Node Driver (mongodb package)
+   ↓
+MongoDB Server
