@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layout/head.ejs') %>
+  <body>
+    <%- include('layout/nav.ejs') %>
+    <div class="content">
+      <form
+        action="/posts/create"
+        method="POST"
+      >
+        <h3>Create Post</h3>
+        <div>
+          <label for="title">Title:</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            required
+          />
+        </div>
+        <div>
+          <label for="subtitle">Subtitle:</label>
+          <input
+            type="text"
+            id="subtitle"
+            name="subtitle"
+            required
+          />
+        </div>
+        <div>
+          <label for="body">Body:</label>
+          <textarea
+            id="body"
+            name="body"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Create Post</button>
+      </form>
+    </div>
+    <%- include('layout/footer.ejs') %>
+  </body>
+</html>
