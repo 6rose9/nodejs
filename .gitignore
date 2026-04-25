@@ -1,10 +1,1 @@
-part3_route/l20express/node_modules
-part3_route/l21express/node_modules
-part3_route/l22express_callback/node_modules
-part3_route/l23express_response_json/node_modules
-part3_route/l25express_middleware/node_modules
-part3_route/l26_third_party_middleware/node_modules
-part4_viewengine/l32_form/node_modules
-part4_viewengine/l33_layouts/node_modules
-part4_viewengine/l34_external_css/node_modules
-part5_mongodb/l35_mongodb/node_modules
+node_modules/
