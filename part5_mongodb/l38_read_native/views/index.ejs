@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('layout/head.ejs') %>
+  <body>
+    <%- include('layout/nav.ejs') %>
+    <div class="content">
+      <% if (posts.length > 0) { %> <% posts.forEach(post => { %>
+      <div class="">
+        <h3><%= post.title %></h3>
+        <small
+          >Posted:
+          <%= post.createdAt ? new Date(post.createdAt).toLocaleString() : 'Unknown' %></small
+        >
+        <h5><%= post.subtitle %></h5>
+        <p><%= post.body %></p>
+      </div>
+      <hr />
+      <% }) %>
+      <% } else { %>
+      <p>There are no blog posts to display.</p>
+      <% } %>
+    </div>
+    <%- include('layout/footer.ejs') %>
+  </body>
+</html>
