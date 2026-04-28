@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-transform: uppercase;
+
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #333;
+}
+
+nav .brand-text {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.content form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content form input,
+.content form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content form button {
+    padding: 10px 20px;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    color: #777;
+    text-align: center;
+    margin: 80px auto 20px;
+}
+
+.alert {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.card-text{
+    margin-top: 10px;
+}
+
+.post-card {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+}
+
+.text-start{
+    text-align: left;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-semi-bold {
+    font-weight: 600;
+}
+
